@@ -1,4 +1,4 @@
-var _frame = document.getElementById('frame');
+(function(){var _frame = document.getElementById('frame');
 
 var frame = _frame.contentDocument;
 
@@ -14,3 +14,4 @@ document.onkeyup = function() {
   style.innerHTML = document.querySelector('.css').innerHTML;
   script.innerHTML = document.querySelector('.js').innerHTML;
 }
+});
