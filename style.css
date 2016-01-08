@@ -21,9 +21,10 @@ body {
   align-items: center;
 }
 .editor div {
-  line-height: 14px;
   font-size: 14px;
-  position: relative;
+  display: block;
+  overflow: scroll;
+  width: auto;
 }
 #frame {
   font-family: Ubuntu;
