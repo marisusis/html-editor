@@ -22,8 +22,10 @@ body {
 }
 .editor div {
   font-size: 14px;
-  overflow: scroll;
+  line-height: inherit;
+  overflow-y: scroll;
   flex-grow: 1;
+  height: 100%;
 }
 #frame {
   font-family: Ubuntu;
