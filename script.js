@@ -4,10 +4,10 @@ var frame = _frame.contentDocument;
 
 var body = frame.children[0].children[1];
 var head = frame.children[0].children[0];
-
-var script = head.createElement('style');
+var style = documentcreateElement('style');
+head.appendChild(style);
 
 document.onkeyup = function() {
   body.innerHTML = document.querySelector('.html').innerHTML;
-  script.innerHTML = document.querySelector('.css').innerHTML;
+  style.innerHTML = document.querySelector('.css').innerHTML;
 }
