@@ -19,11 +19,11 @@ body {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
-  flex-grow: 1;
 }
 .editor div {
   font-size: 14px;
   overflow: scroll;
+  flex-grow: 1;
 }
 #frame {
   font-family: Ubuntu;
